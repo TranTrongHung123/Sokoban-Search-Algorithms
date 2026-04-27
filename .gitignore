@@ -1,0 +1,9 @@
+# Bỏ qua môi trường ảo
+.venv/
+venv/
+env/
+
+# Bỏ qua các file cache và biên dịch của Python
+__pycache__/
+*.pyc
+*.pyo
