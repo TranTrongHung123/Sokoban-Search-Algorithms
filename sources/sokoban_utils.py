@@ -31,7 +31,7 @@ class state:
             else:
                 h = 0
                 for box in list_boxes:
-                    # Manhattan gần nhất theo từng hộp (nhanh, nhưng không tối ưu ghép toàn cục).
+                    # Manhattan gần nhất theo từng hộp
                     min_dist = min(
                         abs(box[0] - cp[0]) + abs(box[1] - cp[1])
                         for cp in self.check_points
