@@ -4,7 +4,7 @@ from scipy.optimize import linear_sum_assignment
 TIME_OUT = 1800
 
 class state:
-    def __init__(self, board, state_parent, list_check_point,mode):
+    def __init__(self, board, state_parent, list_check_point, mode):
         self.board = board
         self.state_parent = state_parent
         self.cost = 0 if state_parent is None else state_parent.cost + 1
