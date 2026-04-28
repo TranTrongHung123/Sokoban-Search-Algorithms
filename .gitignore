@@ -1,9 +1,13 @@
-# Bỏ qua môi trường ảo
+# Môi trường ảo
 .venv/
-venv/
 env/
+venv/
+ENV/
 
-# Bỏ qua các file cache và biên dịch của Python
+# Python cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+
+# File cấu hình IDE
+.vscode/
+.idea/

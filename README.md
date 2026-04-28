@@ -30,7 +30,7 @@ Có 2 chế độ chạy:
 py -m venv .venv
 .venv\Scripts\activate
 python -m pip install -U pip
-pip install numpy pygame matplotlib scipy
+pip install -r requirements.txt
 ```
 
 ---
@@ -64,6 +64,6 @@ python benchmark.py
 ---
 
 ## Lưu ý
-Dữ liệu để mẫu dùng để test:
+Dữ liệu mẫu phục vụ kiểm thử:
 - Level: `data/maps/`  
 - Checkpoint: `data/checkpoints/`  
